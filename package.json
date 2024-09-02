@@ -1,0 +1,42 @@
+{
+  "name": "@spryker/ajax-form",
+  "version": "1.1.0",
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@spryker/ajax-action": "^1.0.0",
+    "@spryker/data-serializer": "^1.0.0",
+    "@spryker/html-renderer": "^1.0.0",
+    "@spryker/styles": "^1.1.0",
+    "@spryker/unsaved-changes.monitor.form": "^1.0.0",
+    "rxjs": "^7.5.7",
+    "@spryker/notification": "1.1.0-next.0"
+  },
+  "dependencies": {
+    "ng-zorro-antd": "^15.0.3",
+    "tslib": "^2.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "module": "fesm2015/spryker-ajax-form.mjs",
+  "es2020": "fesm2020/spryker-ajax-form.mjs",
+  "esm2020": "esm2020/spryker-ajax-form.mjs",
+  "fesm2020": "fesm2020/spryker-ajax-form.mjs",
+  "fesm2015": "fesm2015/spryker-ajax-form.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/spryker-ajax-form.mjs",
+      "es2020": "./fesm2020/spryker-ajax-form.mjs",
+      "es2015": "./fesm2015/spryker-ajax-form.mjs",
+      "node": "./fesm2015/spryker-ajax-form.mjs",
+      "default": "./fesm2020/spryker-ajax-form.mjs"
+    }
+  },
+  "sideEffects": false
+}
